@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("src/images/city.png");
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+div .row .col {
+  height: 100px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.main-container {
+  background: inherit;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  width: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.main-search {
+  border-radius: 4px;
+  border: none;
+  width: 50%;
+}
+.search-button {
+  border: none;
+  border-radius: 4px;
+  background: white;
+}
+
+.main-icon {
+  display: block;
+  margin: 10px;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.font-icon {
+  display: block;
+  margin: 8px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.main-temperature {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.main-degree {
+  font-size: 25px;
+}
+.container {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-card {
+  position: block;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1rem;
+}
+
+.py-5 {
+  padding-top: 0;
+}
+
+.night-mode-available {
+  margin: 0;
+  margin-top: 10px;
+}
+.card-blur {
+  background: inherit;
+  background: rgba(192, 121, 177, 0.267);
+  backdrop-filter: blur(2px);
+}
+.card-blur:hover {
+  transition: all 0.5s ease-out;
+  background-color: rgba(255, 255, 255, 0.185);
+}
+
+#current-temp,
+#desc {
+  line-height: 20px;
+  text-transform: capitalize;
+}
