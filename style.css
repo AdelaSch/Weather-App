@@ -44,7 +44,6 @@ div .row .col {
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-top: 100px;
-  margin-bottom: 100px;
   padding-top: 50px;
   width: auto;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
@@ -75,7 +74,7 @@ div .row .col {
 }
 .main-temperature {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .main-degree {
   font-size: 25px;
@@ -99,10 +98,6 @@ div .row .col {
   padding-top: 0;
 }
 
-.night-mode-available {
-  margin: 0;
-  margin-top: 10px;
-}
 .card-blur {
   background: inherit;
   background: rgba(192, 121, 177, 0.267);
@@ -117,12 +112,9 @@ div .row .col {
 #desc {
   line-height: 20px;
   text-transform: capitalize;
+  font-size: 1rem;
 }
-footer {
-  display: block;
-  position: absolute;
-  margin: -100px;
-  margin-left: 150px;
+span.open-source-link {
   font-size: 80%;
-  font-weight: 500;
+  font-style: italic;
 }
