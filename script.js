@@ -1,4 +1,3 @@
-//Challenge 1
 let now = new Date();
 let days = [
   "Sunday",
@@ -37,7 +36,6 @@ if (minute < 10) {
 let dateTime = document.querySelector("#current-date");
 dateTime.innerHTML = `${day}, ${month} ${date} </br> ${hour}:${minute}`;
 
-//Homework week 5
 function getStats(response) {
   document.querySelector("#current-city").innerHTML = response.data.name;
   document.querySelector("#current-temp").innerHTML = Math.round(

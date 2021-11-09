@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("src/images/city.png");
+  background-image: url("images/city.png");
   font-family: "Nunito Sans", sans-serif;
 }
 
