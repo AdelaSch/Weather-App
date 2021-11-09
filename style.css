@@ -118,3 +118,11 @@ div .row .col {
   line-height: 20px;
   text-transform: capitalize;
 }
+footer {
+  display: block;
+  position: absolute;
+  margin: -100px;
+  margin-left: 150px;
+  font-size: 80%;
+  font-weight: 500;
+}
